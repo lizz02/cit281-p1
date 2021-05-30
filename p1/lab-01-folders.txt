@@ -1,0 +1,11 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 38F8-9E99
+
+ Directory of C:\Users\aleri\Documents\cit281\p1
+
+03/31/2021  02:55 PM    <DIR>          .
+03/31/2021  02:55 PM    <DIR>          ..
+03/31/2021  02:49 PM            63,474 lab-01-folders.png
+03/31/2021  02:55 PM                 0 lab-01-folders.txt
+               2 File(s)         63,474 bytes
+               2 Dir(s)  155,193,110,528 bytes free
