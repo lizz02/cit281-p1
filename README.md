@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/lizz02/cit281-p1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Techniques Used 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- CLI commands 
+- Non-web server Node.js JavaScript code
+- Functions
+- for loops
+- Arrays
+- Date objects
+- .fromCharCode() method
+- console.log() method
 
-### Markdown
+## Objective
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Practice completing tasks using the command line interface. 
 
-```markdown
-Syntax highlighted code block
+![p1-break](p1-break.png)
+![p1-ping](p1-ping.png)
+![p1-tree](p1-tree.png)
+![p1-folders](p1-folders.png)
 
-# Header 1
-## Header 2
-### Header 3
+Create a block of code which returns a string of 5-25 random letters from the English alphabet using non-server node.js javascript code.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+`function getRandomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+let randomWord = ""
 
-**Bold** and _Italic_ and `Code` text
+for(i=0; i <= getRandomInteger(5, 26); i++){
+    //convert a number on ascii table to a letter and apend it to randomWord
+    randomWord = randomWord + String.fromCharCode(getRandomInteger(97, 123))
+}
+console.log(randomWord)`
 
-[Link](url) and ![Image](src)
-```
+Result example:
+![p1-random.js result](p1-random.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Create a block of code which returns a random day of the week. 
 
-### Jekyll Themes
+`let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+let today = new Date()
+console.log(daysOfWeek[(today.getDay())- 1])`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lizz02/cit281-p1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Result example:
+![p1-date.js result](p1-date.png)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
