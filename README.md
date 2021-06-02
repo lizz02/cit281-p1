@@ -10,7 +10,7 @@
     - .fromCharCode() method
     - console.log() method
 
-## Objective
+## Objectives
 
 Practice completing tasks using the command line interface. 
 
