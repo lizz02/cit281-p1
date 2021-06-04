@@ -12,7 +12,7 @@
 
 ## Objectives
 
-Practice completing tasks using the command line interface. 
+### Practice completing tasks using the command line interface. 
 
 ![p1-break](p1-break.png)
 
@@ -22,7 +22,7 @@ Practice completing tasks using the command line interface.
 
 ![p1-folders](p1-folders.png)
 
-Create a block of code which returns a string of 5-25 random letters from the English alphabet using non-server node.js javascript code.
+### Create a block of code which returns a string of 5-25 random letters from the English alphabet using non-server node.js javascript code.
 
 
 ```
@@ -43,7 +43,7 @@ Result example:
 
 ![p1-random.js result](p1-random.png)
 
-Create a block of code which returns a random day of the week. 
+### Create a block of code which returns a random day of the week. 
 
 ```
 let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
